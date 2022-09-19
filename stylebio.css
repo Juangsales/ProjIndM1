@@ -1,0 +1,160 @@
+    body{
+    margin: 0;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: column;
+}
+
+/*LADO 1*/
+
+#lado1{
+    width: auto;
+    padding-top: 11px;
+    height: auto;
+    background: rgb(100, 149, 237);
+    background-image: url(images/fundo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    display: grid;
+    
+    
+}
+
+#topfixo {
+
+    display: grid;
+    box-shadow: 5px 4px rgb(223 221 221 / 69%);
+    width: 100%;
+    overflow: hidden;
+    transition: 2s;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(100, 149, 237, 1);
+    transition: 2s;
+  }  
+
+#lista {
+    margin: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;     
+    
+}
+#lista a{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    
+}
+
+#lista a:hover {
+   
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+
+}
+
+#lista a.active {
+    
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+
+}
+#nome {
+    transition: 2s;
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: white;
+    text-align: center;
+    text-shadow: rgb(70, 70, 70) 0.1em 0.1em 0.2em;
+    
+}
+.foto{
+    justify-content: center;
+    display: grid;
+}
+.foto img{
+
+    width: 200px;
+    height: 200px;
+    background:rgba(230, 230, 230, 0.349);
+    border-radius:50%;
+    border-color: 2px white;
+    margin: auto;  
+ }
+
+.lado1 p1{
+    width: 60%;
+    font-size: 2em;
+    letter-spacing: 2px;
+    color: black;
+    text-align: right;
+    font-size: 15;
+}
+
+/* RODAPÉ */
+.footer {
+    position: fixed;
+    left: 1;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(100, 149, 237);
+    color: white;
+    text-align: center;
+    opacity: 0.9;
+ }
+ 
+    /* LADO 2*/
+
+.lado2 {
+    
+    padding-top: 150px;
+    padding-bottom: 100px;
+    align-self: center;
+    display: grid;
+    width: 100%;      
+
+ }
+
+
+.lado2 > div {
+    
+    background-color: white;
+    border: 1px solid;
+    box-shadow: 5px 10px rgb(205 207 218);
+    margin: 18;
+    width: 96%;
+    padding: 18;
+    border-radius: 5px;
+    display: grid;
+    height: auto;
+  
+    
+ }
+
+.lado2 >div h2 {
+     justify-content: top;
+     padding: 0;
+     text-align: center;
+     margin: 0;
+     
+
+ }
+
+
+
